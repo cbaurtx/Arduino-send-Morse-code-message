@@ -31,7 +31,7 @@ void xmit_char(byte code) {
   static byte enc;
 
   if (code == 0x20) {  // space indicates new word
-    delay(WORDWORD_GAP - CHARCHAR_GAP - DASHDOT_GAP);
+    delay(WORDWORD_GAP);
     return;
     }
 
